@@ -3,5 +3,5 @@ export const
 
 export function
     execute(message) {
-    console.log(`${message.author.tag} in #${message.channel.name} sent: ${message.content}`);
+        console.log(`${message.author.tag} in #${message.channel.name} sent: ${message.content}`);
     }
